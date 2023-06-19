@@ -1,4 +1,3 @@
-
 local wk = game:GetService('Workspace')
 local lobby = wk:WaitForChild('Lobby')
 local plrs = game:GetService('Players')
