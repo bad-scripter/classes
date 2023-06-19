@@ -53,7 +53,7 @@ a = mouse.Button1Down:Connect(onmouse)
 b = us.InputBegan:Connect(onkey)  
 end
 
-infomodule.archer = function(),
+infomodule.archer = function()
   local ok = class.New({1, 1, 1, 1},
     function()
         print'akt'
