@@ -1,16 +1,16 @@
 local infomodule = {}
-local module = loadstring(game:HttpGet('https://raw.githubusercontent.com/bad-scripter/template/main/yes.lua', true))()
 
+
+local plr = game.Players.LocalPlayer 
 local class = {}
 class.New = function(cd, a, b, c, d)
+local module = loadstring(game:HttpGet('https://raw.githubusercontent.com/bad-scripter/template/main/yes.lua', true))()
 CoolDowns = {
     ATK = cd[1], 
     AB1 = cd[2], 
     AB2 = cd[3], 
     CRIT = cd[4] 
 }
-
-local plr = game.Players.LocalPlayer 
 local char = plr.Character 
 local hum = char.Humanoid
 
