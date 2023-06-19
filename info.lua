@@ -54,7 +54,7 @@ b = us.InputBegan:Connect(onkey)
 end
 
 infomodule.archer = function(),
-  local ok = class.New({1, 1, 1, 1}
+  local ok = class.New({1, 1, 1, 1},
     function()
         print'akt'
     end,
